@@ -25,19 +25,17 @@ body {
   gap: 16px;
 }
 
-.one {
-  flex-direction: column;
+.text {
+  margin-bottom: 16px;
 }
 
-.two {
-  flex-direction: column;
-  gap: 10px;
-  margin: 10px;
-}
-
-.three {
+.header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
 .icon {
@@ -51,8 +49,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
-
 .close-button {
   background: #eee;
   border-radius: 50%;
